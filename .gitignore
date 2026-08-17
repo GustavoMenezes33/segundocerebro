@@ -17,3 +17,6 @@ venv/
 
 # Reversa
 _reversa_sdd/
+
+# Copia identica de .claude/ mantida so para uso local.
+.agents/
