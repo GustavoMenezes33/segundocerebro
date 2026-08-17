@@ -1,0 +1,19 @@
+# Segredos. Nunca versionar.
+.env
+
+# Dados do usuário: acervo, áudios, fila, índice, modelos de transcrição.
+# O acervo é pessoal e não pertence ao repositório.
+dados/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Reversa
+_reversa_sdd/
