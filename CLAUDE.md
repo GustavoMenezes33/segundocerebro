@@ -18,8 +18,11 @@ Use o fluxo adequado no chat:
 Quando o usuário digitar `/reversa` ou a palavra `reversa` sozinha em uma mensagem:
 
 1. Ative o skill `reversa` disponível em `.claude/skills/reversa/SKILL.md`
-2. Se não encontrar em `.claude/skills/`, tente `.agents/skills/reversa/SKILL.md`
-3. Leia o SKILL.md na íntegra e siga exatamente as instruções do Reversa
+2. Leia o SKILL.md na íntegra e siga exatamente as instruções do Reversa
+
+Os skills vivem em `.claude/skills/`, que é a única cópia versionada.
+Algumas máquinas têm também `.agents/skills/`, uma cópia local idêntica
+fora do controle de versão; não dependa dela.
 
 ## Regra não-negociável
 
